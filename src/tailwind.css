@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --RaisinBlack: #34252f;
+    --SeaGreen: #519872;
+    --Feldgrau: #3b5249;
+    --AshGray: #bec5ad;
+    --Sage: #a4b494;
+  
+    --BarnRed:#691e06;
+    --Sienna:#8f250c;
+    --BurntOrange:#bb4d00;
+    --Tawny:#ca5310;
+    --Fawn:#fbba72;
+  }
+.bentos {
+  @apply  rounded-md bg-[var(--SeaGreen)]  w-full h-full;
+}
+
+.bentos_under {
+    @apply  rounded-md bg-white  w-[90%] h-[90%];
+  }
+  
+  
